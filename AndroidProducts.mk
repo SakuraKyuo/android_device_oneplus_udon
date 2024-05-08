@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/radiant_udon.mk
+    $(LOCAL_DIR)/aosp_udon.mk
 
 COMMON_LUNCH_CHOICES := \
-    radiant_udon-user \
-    radiant_udon-userdebug \
-    radiant_udon-eng
+    aosp_udon-user \
+    aosp_udon-userdebug \
+    aosp_udon-eng
