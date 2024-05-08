@@ -12,14 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/udon/device.mk)
 
 # Inherit some common Radiant stuff.
-$(call inherit-product, vendor/radiant/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := radiant_udon
+PRODUCT_NAME := aosp_udon
 PRODUCT_DEVICE := udon
 PRODUCT_MANUFACTURER := oplus
 PRODUCT_BRAND := oplus
 PRODUCT_MODEL := CPH2487
-TARGET_USES_OPLUS_CAMERA := true
+# TARGET_USES_OPLUS_CAMERA := true
 
 PRODUCT_SYSTEM_NAME := CPH2487
 PRODUCT_SYSTEM_DEVICE := OP5961L1
